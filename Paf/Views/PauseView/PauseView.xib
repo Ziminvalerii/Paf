@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PauseView" customModule="Paf" customModuleProvider="target">
+            <connections>
+                <outlet property="homeButton" destination="lUN-X4-Ook" id="ud1-Z8-lYv"/>
+                <outlet property="resumeButton" destination="ODa-vB-aEF" id="iEL-LT-KtJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PAUSE" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43R-KQ-m3u">
+                    <rect key="frame" x="368" y="128.33333333333334" width="108" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="43R-KQ-m3u" secondAttribute="height" multiplier="3:1" id="RsY-RC-3Rd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUN-X4-Ook">
+                    <rect key="frame" x="326" y="196.33333333333334" width="42" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="lUN-X4-Ook" secondAttribute="height" multiplier="1:1" id="hLe-S9-vSj"/>
+                        <constraint firstAttribute="width" constant="42" id="yrK-lL-tNY"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="homePage"/>
+                    <connections>
+                        <action selector="homeButtonPressed:" destination="-1" eventType="touchUpInside" id="90p-7n-hOx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ODa-vB-aEF">
+                    <rect key="frame" x="476" y="196.33333333333334" width="42" height="42"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="resume"/>
+                    <connections>
+                        <action selector="resumeButtonPressed:" destination="-1" eventType="touchUpInside" id="JP7-tX-3wx"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ODa-vB-aEF" firstAttribute="leading" secondItem="43R-KQ-m3u" secondAttribute="trailing" id="0UT-HO-gRv"/>
+                <constraint firstItem="ODa-vB-aEF" firstAttribute="centerY" secondItem="lUN-X4-Ook" secondAttribute="centerY" id="2ho-Nf-H67"/>
+                <constraint firstItem="lUN-X4-Ook" firstAttribute="top" secondItem="43R-KQ-m3u" secondAttribute="bottom" constant="32" id="I8o-Ia-10s"/>
+                <constraint firstItem="43R-KQ-m3u" firstAttribute="leading" secondItem="lUN-X4-Ook" secondAttribute="trailing" id="InV-u2-T5R"/>
+                <constraint firstItem="ODa-vB-aEF" firstAttribute="height" secondItem="lUN-X4-Ook" secondAttribute="height" id="RJR-rq-gQT"/>
+                <constraint firstItem="43R-KQ-m3u" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="if4-qh-LvY"/>
+                <constraint firstItem="43R-KQ-m3u" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.75" id="jhE-Dg-GVV"/>
+                <constraint firstItem="ODa-vB-aEF" firstAttribute="width" secondItem="lUN-X4-Ook" secondAttribute="width" id="kNU-9X-CBj"/>
+            </constraints>
+            <point key="canvasLocation" x="37" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="homePage" width="48" height="48"/>
+        <image name="resume" width="42" height="42"/>
+    </resources>
+</document>

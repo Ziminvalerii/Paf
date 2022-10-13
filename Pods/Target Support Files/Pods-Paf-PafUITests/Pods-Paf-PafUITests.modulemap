@@ -1,0 +1,6 @@
+framework module Pods_Paf_PafUITests {
+  umbrella header "Pods-Paf-PafUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

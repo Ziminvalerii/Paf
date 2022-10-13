@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameOverView" customModule="Paf" customModuleProvider="target">
+            <connections>
+                <outlet property="bloodAnimationView" destination="LGz-i2-SZf" id="3OW-Rh-HNr"/>
+                <outlet property="crackImageView" destination="f3g-K3-YzN" id="SvH-73-nzc"/>
+                <outlet property="gameSceneButton" destination="TaK-oM-Anq" id="MFp-75-QvU"/>
+                <outlet property="homeButton" destination="dmT-49-VzS" id="HW3-xG-JPX"/>
+                <outlet property="statusImage" destination="fgj-LQ-kBd" id="a3E-gq-Y2r"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="targetShoot" translatesAutoresizingMaskIntoConstraints="NO" id="qTV-5n-WK4">
+                    <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LGz-i2-SZf" customClass="AnimationView" customModule="Lottie">
+                    <rect key="frame" x="0.0" y="0.0" width="844" height="390"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="blood"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmT-49-VzS">
+                    <rect key="frame" x="322" y="165" width="200" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="bPu-uw-l2F"/>
+                        <constraint firstAttribute="height" constant="60" id="l9k-T4-dVX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="GO TO HOME" backgroundImage="greenButton">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="goToHomeButtonPressed:" destination="-1" eventType="touchUpInside" id="exf-qU-6sf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TaK-oM-Anq">
+                    <rect key="frame" x="322" y="242" width="200" height="60"/>
+                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="NEXT LEVEL" backgroundImage="greenButton">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="gameSceneButtonPressed:" destination="-1" eventType="touchUpInside" id="AeM-xt-w3p"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="crack" translatesAutoresizingMaskIntoConstraints="NO" id="f3g-K3-YzN">
+                    <rect key="frame" x="542" y="64" width="171" height="149"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="149" id="CfD-PP-NUb"/>
+                        <constraint firstAttribute="width" constant="171" id="OQF-OT-r7u"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="winImage" translatesAutoresizingMaskIntoConstraints="NO" id="fgj-LQ-kBd">
+                    <rect key="frame" x="302" y="24" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="0rt-2I-xp2"/>
+                        <constraint firstAttribute="width" secondItem="fgj-LQ-kBd" secondAttribute="height" multiplier="15:8" id="lL7-bg-1A4"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fgj-LQ-kBd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="5I8-vy-SgW"/>
+                <constraint firstAttribute="bottom" secondItem="qTV-5n-WK4" secondAttribute="bottom" id="FSR-0K-qcA"/>
+                <constraint firstItem="LGz-i2-SZf" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="IhS-8G-vlg"/>
+                <constraint firstItem="fgj-LQ-kBd" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KTJ-LX-JaZ"/>
+                <constraint firstItem="dmT-49-VzS" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PGz-u0-CEQ"/>
+                <constraint firstItem="qTV-5n-WK4" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="PTn-RP-jct"/>
+                <constraint firstItem="LGz-i2-SZf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Q4s-W5-rYl"/>
+                <constraint firstItem="LGz-i2-SZf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QK0-f5-gfU"/>
+                <constraint firstItem="TaK-oM-Anq" firstAttribute="width" secondItem="dmT-49-VzS" secondAttribute="width" id="UuG-pr-YId"/>
+                <constraint firstAttribute="bottom" secondItem="LGz-i2-SZf" secondAttribute="bottom" id="XSF-a9-vuW"/>
+                <constraint firstItem="f3g-K3-YzN" firstAttribute="leading" secondItem="fgj-LQ-kBd" secondAttribute="trailing" id="XuZ-NG-yMK"/>
+                <constraint firstItem="TaK-oM-Anq" firstAttribute="centerX" secondItem="dmT-49-VzS" secondAttribute="centerX" id="aFV-MJ-ZnR"/>
+                <constraint firstItem="TaK-oM-Anq" firstAttribute="top" secondItem="dmT-49-VzS" secondAttribute="bottom" constant="17" id="hVB-3l-V0B"/>
+                <constraint firstItem="qTV-5n-WK4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iVq-M0-lHw"/>
+                <constraint firstItem="qTV-5n-WK4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jlv-lb-gf0"/>
+                <constraint firstItem="f3g-K3-YzN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="lft-Wv-t8r"/>
+                <constraint firstItem="TaK-oM-Anq" firstAttribute="height" secondItem="dmT-49-VzS" secondAttribute="height" id="nM4-9f-dfV"/>
+                <constraint firstItem="dmT-49-VzS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xEK-4c-EUD"/>
+            </constraints>
+            <point key="canvasLocation" x="21.327014218009477" y="20"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="LGz-i2-SZf"/>
+    </designables>
+    <resources>
+        <image name="crack" width="298" height="290"/>
+        <image name="greenButton" width="450.5" height="125"/>
+        <image name="targetShoot" width="1218" height="562.5"/>
+        <image name="winImage" width="448" height="67"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
