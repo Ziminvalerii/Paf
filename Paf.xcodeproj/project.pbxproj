@@ -58,9 +58,6 @@
 		9FD0BFA028E39F3500235248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD0BF9E28E39F3500235248 /* Main.storyboard */; };
 		9FD0BFA228E39F3700235248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD0BFA128E39F3700235248 /* Assets.xcassets */; };
 		9FD0BFA528E39F3700235248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD0BFA328E39F3700235248 /* LaunchScreen.storyboard */; };
-		9FD0BFAF28E39F3700235248 /* PafTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0BFAE28E39F3700235248 /* PafTests.swift */; };
-		9FD0BFB928E39F3800235248 /* PafUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0BFB828E39F3800235248 /* PafUITests.swift */; };
-		9FD0BFBB28E39F3800235248 /* PafUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD0BFBA28E39F3800235248 /* PafUITestsLaunchTests.swift */; };
 		9FD5458228E5B284002F8D76 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5458128E5B284002F8D76 /* PlayerModel.swift */; };
 		9FD5458428E5B3B2002F8D76 /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5458328E5B3B2002F8D76 /* PlayerManager.swift */; };
 		9FD5458928E5DD57002F8D76 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5458828E5DD57002F8D76 /* SettingsPresenter.swift */; };
@@ -85,26 +82,7 @@
 		9FF34B6D28F4248E006DA10E /* BuyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FF34B6C28F4248E006DA10E /* BuyView.xib */; };
 		9FF34B6F28F424B2006DA10E /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF34B6E28F424B2006DA10E /* BuyView.swift */; };
 		9FF5E84F28F829BD0026EC57 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5E84E28F829BD0026EC57 /* Date.swift */; };
-		B5CE7AEC474AF5AFA00D9468 /* Pods_Paf_PafUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DC959804DE3A52228CCC1A /* Pods_Paf_PafUITests.framework */; };
-		C02BFF6C743D2EB594E5A01C /* Pods_PafTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF62827EDCA6B56766995C18 /* Pods_PafTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9FD0BFAB28E39F3700235248 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FD0BF8928E39F3500235248 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FD0BF9028E39F3500235248;
-			remoteInfo = Paf;
-		};
-		9FD0BFB528E39F3800235248 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FD0BF8928E39F3500235248 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FD0BF9028E39F3500235248;
-			remoteInfo = Paf;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		06D3BC6682DEDF4FAF0384A3 /* Pods-Paf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paf.debug.xcconfig"; path = "Target Support Files/Pods-Paf/Pods-Paf.debug.xcconfig"; sourceTree = "<group>"; };
@@ -165,9 +143,7 @@
 		9FD0BF9F28E39F3500235248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FD0BFA128E39F3700235248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD0BFA428E39F3700235248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9FD0BFAA28E39F3700235248 /* PafTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PafTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD0BFAE28E39F3700235248 /* PafTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PafTests.swift; sourceTree = "<group>"; };
-		9FD0BFB428E39F3800235248 /* PafUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PafUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD0BFB828E39F3800235248 /* PafUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PafUITests.swift; sourceTree = "<group>"; };
 		9FD0BFBA28E39F3800235248 /* PafUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PafUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9FD5458128E5B284002F8D76 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
@@ -205,22 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ADCE3B5E4FB5B6381C6DF60 /* Pods_Paf.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FD0BFA728E39F3700235248 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C02BFF6C743D2EB594E5A01C /* Pods_PafTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FD0BFB128E39F3800235248 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B5CE7AEC474AF5AFA00D9468 /* Pods_Paf_PafUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,8 +464,6 @@
 			isa = PBXGroup;
 			children = (
 				9FD0BF9128E39F3500235248 /* Paf.app */,
-				9FD0BFAA28E39F3700235248 /* PafTests.xctest */,
-				9FD0BFB428E39F3800235248 /* PafUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -705,45 +663,6 @@
 			productReference = 9FD0BF9128E39F3500235248 /* Paf.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FD0BFA928E39F3700235248 /* PafTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FD0BFC128E39F3800235248 /* Build configuration list for PBXNativeTarget "PafTests" */;
-			buildPhases = (
-				56521EBB1B399E2F990D82F4 /* [CP] Check Pods Manifest.lock */,
-				9FD0BFA628E39F3700235248 /* Sources */,
-				9FD0BFA728E39F3700235248 /* Frameworks */,
-				9FD0BFA828E39F3700235248 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FD0BFAC28E39F3700235248 /* PBXTargetDependency */,
-			);
-			name = PafTests;
-			productName = PafTests;
-			productReference = 9FD0BFAA28E39F3700235248 /* PafTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9FD0BFB328E39F3800235248 /* PafUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FD0BFC428E39F3800235248 /* Build configuration list for PBXNativeTarget "PafUITests" */;
-			buildPhases = (
-				F606B7170F4403E360631555 /* [CP] Check Pods Manifest.lock */,
-				9FD0BFB028E39F3800235248 /* Sources */,
-				9FD0BFB128E39F3800235248 /* Frameworks */,
-				9FD0BFB228E39F3800235248 /* Resources */,
-				6C99D94F84C6802C0DDE9208 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FD0BFB628E39F3800235248 /* PBXTargetDependency */,
-			);
-			name = PafUITests;
-			productName = PafUITests;
-			productReference = 9FD0BFB428E39F3800235248 /* PafUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -756,14 +675,6 @@
 				TargetAttributes = {
 					9FD0BF9028E39F3500235248 = {
 						CreatedOnToolsVersion = 14.0.1;
-					};
-					9FD0BFA928E39F3700235248 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 9FD0BF9028E39F3500235248;
-					};
-					9FD0BFB328E39F3800235248 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 9FD0BF9028E39F3500235248;
 					};
 				};
 			};
@@ -781,8 +692,6 @@
 			projectRoot = "";
 			targets = (
 				9FD0BF9028E39F3500235248 /* Paf */,
-				9FD0BFA928E39F3700235248 /* PafTests */,
-				9FD0BFB328E39F3800235248 /* PafUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -816,20 +725,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FD0BFA828E39F3700235248 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FD0BFB228E39F3800235248 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -850,28 +745,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Paf/Pods-Paf-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		56521EBB1B399E2F990D82F4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PafTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		64994FAB55D00335CDE6C354 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -888,45 +761,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Paf-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C99D94F84C6802C0DDE9208 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Paf-PafUITests/Pods-Paf-PafUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Paf-PafUITests/Pods-Paf-PafUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Paf-PafUITests/Pods-Paf-PafUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F606B7170F4403E360631555 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Paf-PafUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -996,37 +830,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FD0BFA628E39F3700235248 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FD0BFAF28E39F3700235248 /* PafTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FD0BFB028E39F3800235248 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FD0BFBB28E39F3800235248 /* PafUITestsLaunchTests.swift in Sources */,
-				9FD0BFB928E39F3800235248 /* PafUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9FD0BFAC28E39F3700235248 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FD0BF9028E39F3500235248 /* Paf */;
-			targetProxy = 9FD0BFAB28E39F3700235248 /* PBXContainerItemProxy */;
-		};
-		9FD0BFB628E39F3800235248 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FD0BF9028E39F3500235248 /* Paf */;
-			targetProxy = 9FD0BFB528E39F3800235248 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9FD0BF9E28E39F3500235248 /* Main.storyboard */ = {
@@ -1234,86 +1038,6 @@
 			};
 			name = Release;
 		};
-		9FD0BFC228E39F3800235248 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57492BD3274EBE21A47FF1CE /* Pods-PafTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PafTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paf";
-			};
-			name = Debug;
-		};
-		9FD0BFC328E39F3800235248 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93DD6BEA0361DBC3F9C6A981 /* Pods-PafTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PafTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Paf";
-			};
-			name = Release;
-		};
-		9FD0BFC528E39F3800235248 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB1C768ED1883CA372D6E5AA /* Pods-Paf-PafUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PafUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Paf;
-			};
-			name = Debug;
-		};
-		9FD0BFC628E39F3800235248 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3E90041BB1E979C51AEC189 /* Pods-Paf-PafUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62C374FX49;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.galasoft.PafUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Paf;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1331,24 +1055,6 @@
 			buildConfigurations = (
 				9FD0BFBF28E39F3800235248 /* Debug */,
 				9FD0BFC028E39F3800235248 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FD0BFC128E39F3800235248 /* Build configuration list for PBXNativeTarget "PafTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FD0BFC228E39F3800235248 /* Debug */,
-				9FD0BFC328E39F3800235248 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FD0BFC428E39F3800235248 /* Build configuration list for PBXNativeTarget "PafUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FD0BFC528E39F3800235248 /* Debug */,
-				9FD0BFC628E39F3800235248 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
